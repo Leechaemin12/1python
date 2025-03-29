@@ -1,0 +1,4 @@
+radius = 11
+pi = 3.142
+print("원의 둘레:", radius*2*pi)
+print("원의 면적:", radius*radius*pi)
