@@ -1,0 +1,6 @@
+n = int(input('정수 n을 입력하세요: '))
+def factorial(n):
+    if n == 0:
+        return 1
+    return n * factorial(n-1)
+print(factorial(n))
