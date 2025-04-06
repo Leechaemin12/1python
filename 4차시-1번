@@ -1,0 +1,10 @@
+n = int(input("학생수를 입력하세요: "))
+scores = {}
+for i in range(n):
+    name, score = input("이름과 점수를 입력하세요: ").split()
+    scores[name] = int(score)
+student = input("학생 이름을 입력하세요: ")
+if student in scores:
+    print(scores[student])
+else:
+    print("학생을 찾을 수 없습니다다")
