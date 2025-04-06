@@ -1,0 +1,4 @@
+set1 = set(map(int, input("숫자를 입력하세요: ").split()))
+set2 = set(map(int, input("숫자를 입력하세요: ").split()))
+common = set1 & set2
+print(len(common))
