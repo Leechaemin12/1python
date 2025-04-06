@@ -1,6 +1,6 @@
 n = int(input( "정수 입력:" ))
-m = int(input( "정수 입력:" ))
+z = int(input( "정수 입력:" ))
 x = int(input( "정수 입력:" ))
 
-t0 = ( n, m, x )
+t0 = ( n, z, x )
 print(t0.index(max(t0)))
