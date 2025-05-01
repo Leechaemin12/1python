@@ -1,0 +1,7 @@
+n = int(input("학생 수:"))
+names = []
+for i in range(n):
+    name = input("학생 이름:")
+    names.append(name)
+sorted_names = sorted(names, key=lambda x:(len(x),x))
+print(sorted_names)
