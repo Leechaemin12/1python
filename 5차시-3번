@@ -1,0 +1,10 @@
+filename = input("입력할 파일의 이름: ")
+
+try:
+    f = open(filename, "r")
+    s = f.read()
+    print(s)
+except FileNotFoundError:
+    print(f"{filename} 파일이 존재하지 않습니다.")
+finally:
+    f.close()
