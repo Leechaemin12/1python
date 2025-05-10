@@ -1,0 +1,7 @@
+import random
+numbers = list(range(1, 46))
+random.shuffle(numbers)
+lotto = []
+for i in range(6):
+    lotto.append(numbers[i])
+print("이번 주의 추천 로또번호: ", lotto)
